@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PeakPulse Fitness</title>
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="./company-logo.png" alt="Picture of a heart with a pulse line">
+        <h1 id="company-name">PeakPulse Fitness</h1>
+        <nav id="nav-bar">
+            <a href="#story-section" class="nav-link">Our Story</a>
+            <a href="#product-section" class="nav-link">Our Products</a>
+            <a href="#faq-section" class="nav-link">Our FAQs</a>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="story-section">
+            <h2 class="section-header">Our Story</h2>
+            <p>
+                In the heart of Vancouver, BC, two best friends, Bavid and Dranko, embarked on a revolutionary journey to transform the fitness and nutrition landscape. United by their passion for health and their extensive research on optimizing heart rate to enhance workout and nutrition outcomes, they founded a start-up that stands at the intersection of science and wellness.
+            </p>
+            <p>
+                Their pioneering work, which has been widely published and celebrated in the fitness community, focuses on tailoring fitness routines and dietary plans to individual heart rate responses, ensuring that each person they touch is on the most efficient path to achieving their health goals. This commitment to personalized fitness and nutrition has quickly propelled their company to the forefront of the industry, making a profound impact on the lives of those looking to unlock their full physical potential.
+            </p>
+        </section>
+        <hr>
+        <section id="product-section">
+            <div class="product-info-container">
+                <h2 class="section-header">Our Products</h2>
+                <h3 class="product-header">PulsePrime</h3>
+                <p class="product-description">Harness the power of your heart rate to fuel your fitness journey with PulsePrime, our expertly designed workout plan tailored to help you reach peak performance.</p>
+                <h3 class="product-header">VitalHarmony</h3>
+                <p class="product-description">Achieve a perfect balance between movement and nourishment with VitalHarmony. Elevate your fitness with personalized workout plans complemented by tailored nutrition advice for a holistic health approach.</p>
+                <h3 class="product-header">ZenithZone</h3>
+                <p class="product-description">Ascend to your ultimate fitness goals with ZenithZone. This comprehensive package offers bespoke workout routines, customized nutrition strategies, and advanced progress tracking to guide you every step of the way to your zenith of health and wellness.</p>
+            </div>
+            <div id="product-card-container">
+                <div class="product-card">
+                    <h4>PulsePrime</h4>
+                    <img class="product-img" src="./workout-img.png" alt="">
+                    <span class="item-cost">$200</span>
+                    <ul>
+                        <li class="feature-items included-item">Work out plans</li>
+                        <li class="feature-items excluded-item">Nutrition advice</li>
+                        <li class="feature-items excluded-item">Progress tracker</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <h4>VitalHarmony</h4>
+                    <img class="product-img" src="./nutrition-img.png" alt="">
+                    <span class="item-cost">$300</span>
+                    <ul>
+                        <li class="feature-items included-item">Work out plans</li>
+                        <li class="feature-items included-item">Nutrition advice</li>
+                        <li class="feature-items excluded-item">Progress tracker</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <h4>ZenithZone</h4>
+                    <img class="product-img" src="./progress-img.png" alt="">
+                    <span class="item-cost">$550</span>
+                    <ul>
+                        <li class="feature-items included-item">Work out plans</li>
+                        <li class="feature-items included-item">Nutrition advice</li>
+                        <li class="feature-items included-item">Progress tracker</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="video-section">
+            <div id="video-section-mat">
+                <video width="512" height="288" controls id="video">
+                    <source src="./video (2160p).mp4" type="video/mp4">
+                </video>
+                <p id="video-caption">Our people care <br> about <em>your</em> health!</p>
+            </div>
+        </section>
+        <hr>
+        <section id="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="wrap-collapsible">
+                <input id="question-1" class="toggle" type="radio" name="faq-radio">
+                <label for="question-1" class="lbl-toggle">How do your personalized workout and nutrition plans work?</label>
+                <div class="collapsible-content">
+                  <div class="content-inner">
+                    <p>
+                        Our personalized plans are designed based on cutting-edge research into how heart rate can influence fitness and nutritional outcomes. By understanding your unique fitness level, goals, and dietary preferences, we create a tailored workout and nutrition plan that aligns with your body's needs. Our approach ensures that you're not just following a generic plan but one that's optimized for your heart rate response, maximizing efficiency and effectiveness.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap-collapsible">
+                <input id="question-2" class="toggle" type="radio" name="faq-radio">
+                <label for="question-2" class="lbl-toggle">What makes your fitness plans different from other apps or services?</label>
+                <div class="collapsible-content">
+                  <div class="content-inner">
+                    <p>
+                        Unlike other fitness apps or services that offer one-size-fits-all solutions, our plans are deeply personalized to each individual's physiological response to exercise and nutrition. Founders Bavid and Dranko have spent years researching and developing a methodology that leverages heart rate data to tailor fitness and nutrition advice. This personalized approach ensures that our users see better results, faster, and with more sustainable health benefits.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap-collapsible">
+                <input id="question-3" class="toggle" type="radio" name="faq-radio">
+                <label for="question-3" class="lbl-toggle">Can I use your services if I have specific dietary restrictions or health conditions?</label>
+                <div class="collapsible-content">
+                  <div class="content-inner">
+                    <p>
+                        Absolutely! We understand that nutrition and fitness are not one-size-fits-all, especially for individuals with specific dietary restrictions or health conditions. Our team is equipped to tailor your nutrition advice and workout plans to accommodate your unique needs, ensuring that your health journey is safe, effective, and aligned with your personal health goals and restrictions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap-collapsible">
+                <input id="question-4" class="toggle" type="radio" name="faq-radio">
+                <label for="question-4" class="lbl-toggle">How does the progress tracking feature work in your most comprehensive package?</label>
+                <div class="collapsible-content">
+                  <div class="content-inner">
+                    <p>
+                        Our progress tracking feature in the ZenithZone package is designed to give you real-time insights into your fitness journey. It monitors your workout performance, dietary adherence, and heart rate variability, providing a holistic view of your progress. This feature allows for adjustments to your plan in real-time, ensuring that you're always on the most efficient path toward your fitness and nutrition goals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap-collapsible">
+                <input id="question-5" class="toggle" type="radio" name="faq-radio">
+                <label for="question-5" class="lbl-toggle">What support do you offer to users who are struggling to meet their fitness or nutrition goals?</label>
+                <div class="collapsible-content">
+                  <div class="content-inner">
+                    <p>
+                        We understand that the journey to achieving fitness and nutrition goals isn't always linear. For users facing challenges, we offer personalized support from our team of fitness and nutrition experts. This includes one-on-one consultations to reassess and adjust your plan, motivational support to keep you on track, and access to resources that can help overcome obstacles. Our goal is to ensure that every user feels supported and empowered to reach their health and wellness objectives.
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="footer-section">
+            <div class="email-form">
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <label for="email" class="form-element">Join our mail list and never miss out!</label>
+                    <input type="email" placeholder="Enter your email" id="email" name="email" class="form-element">
+                    <label for="submit" class="form-element"></label>
+                    <input type="submit" name="submit" id="submit" value="Subscribe" class="form-element form-button">
+                </form>
+            </div>
+            <div id="company-socials">
+                <h4>Follow Us</h4>
+                <i href="#" class="fa fa-facebook fa-2x"></i>
+                <i href="#" class="fa fa-twitter fa-2x"></i>
+                <i href="#" class="fa fa-instagram fa-2x"></i>
+                <i href="#" class="fa fa-youtube fa-2x"></i>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
